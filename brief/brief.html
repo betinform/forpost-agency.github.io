@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Бриф</title>
+
+	<!--for queries-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--stylesheets-->
+	<link rel="stylesheet" href="css/brief.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<!--device grid-->
+	<style></style>
+
+	<!--og protocol-->
+	<meta content="" name="description">
+	<meta content="" property="og:image">
+	<meta content="" property="og:description">
+	<meta content="" property="og:site_name">
+	<meta content="website" property="og:type">
+	
+  </head>
+<body>
+
+	
+
+	<form action="" method="post">
+		
+		<div class="leader">
+			<div class="leader-heading">
+				<div class="leader-heading_logo"><span>Forpost</span></div>
+			
+				<h1>Бриф на контекстную рекламу <strong>Google AdWords</strong></h1>
+			</div>
+			<div class="leader-text">
+				<p class="light">Настройка качественной контекстной рекламы начинается с заполнения этого брифа. Пожалуйста, заполните анкету как можно подробнее — это существенно повысит эффективность рекламной кампании</p>
+				<p class="light">Мы постарались максимально упростить заполнение брифа. Если Вам все же необходима консультация или другая информация, вы всегда можете связаться с нашим менеджером на сайте <a href="http://context.tk">context.tk</a> или отправить интересующий вопрос на наш почтовый ящик <a href="mailto:forpost.agency@gmail.com">forpost.agency@gmail.com</a></p>
+				<p class="light">Обязательные для заполнения поля отмечены <span class="accent">*</span></p>
+			</div>
+		</div>
+
+		<fieldset>
+
+		<!--Common information-->
+			<section class="applicant">
+				<div class="heading">
+					<legend><span class="number">1</span>Общая информация</legend>
+				</div>
+				
+				<label class="label--common" for="website">Введите адрес вашего веб-сайта:&nbsp;<span class="accent">*</span></label>
+				<input class="website" id="website" name="website" type="url" placeholder="www.website.com" required>
+				<label class="label--common" for="company">Как называется ваша компания?</label>
+				<input class="company" id="company" name="company" type="text" placeholder="Название вашей компании">
+			</section>
+			
+			<!--Campaign information-->
+			<section class="campaign">
+				<div class="heading">
+					<legend><span class="number">2</span>Данные о рекламной кампании</legend>
+				</div>
+			
+			<!--Product General Information-->
+				<label class="label--common" for="product">Рекламируемый сайт, продукт или услуга <p class="light">Если на вашем сайте множество товаров, но вы хотите рекламировать не весь сайт, а выборочные позиции — пожалуйста, укажите список соответствующих страниц сайта</p></label>
+				<textarea name="product" id="product" cols="30" rows="6" placeholder="Адреса целевых страниц, например: www.website/product-1.kz"></textarea>
+
+				<div class="radio">
+					<label class="label--common">Цели рекламной кампании&nbsp;<span class="accent">*</span></label>
+					
+					<!--Campaign Goals-->
+					<div class="radiowrapper">
+						<label class="light" for="goal-1"> <!--Sales-->
+							<input class="light-radiobutton" id="goal-1" name="goal-1" type="checkbox" value="goal-1">Повышение продаж 
+						</label>
+						<label class="light" for="goal-2"> <!--Calls-->
+							<input class="light-radiobutton" id="goal-2" name="goal-2" type="checkbox" value="goal-2">Рост числа входящих звонков 
+						</label>
+						<label class="light" for="goal-3"> <!--Visits-->
+							<input class="light-radiobutton" id="goal-3" name="goal-3" type="checkbox" value="goal-3">Рост трафика (посещаемости сайта) 
+						</label>
+						<label class="light" for="goal-4"> <!--Interactions-->
+							<input class="light-radiobutton" id="goal-4" name="goal-4" type="checkbox" value="goal-4">Увеличение количества заказов online при помощи формы заказа
+						</label>
+						<label class="light" for="goal-5"> <!--NewProduct-->
+							<input class="light-radiobutton" id="goal-5" name="goal-5" type="checkbox" value="goal-5">Реклама нового товара или услуги
+						</label>
+						<label class="light" for="goal-6"> <!--Promotion-->
+							<input class="light-radiobutton" id="goal-6" name="goal-6" type="checkbox" value="goal-6">Проведение промоакции
+						</label>
+						<label class="light" for="goal-7"> <!--Branding-->
+							<input class="light-radiobutton" id="goal-7" name="goal-7" type="checkbox" value="goal-7">Брендинг (повышение осведомленности о бренде)
+						</label>
+					</div>
+				</div>
+
+			</section>
+			
+			<!--Targeting-->
+			<section class="targeting">
+				<div class="heading">
+					<legend><span class="number">3</span>География деятельности</legend>
+				</div>
+
+				<!--Targeting-->
+				<label class="label--common" for="region">Укажите страну или регион (регионы, города), в которых работает Ваша компания:&nbsp;<span class="accent">*</span></label>
+				<textarea name="region" id="region" cols="30" rows="2" placeholder="Например: Казахстан, Акмолинская область" required></textarea>
+				<label class="label--common" for="customers">Ваша целевая аудитория?</label>
+				<textarea name="customers" id="customers" cols="30" rows="4" placeholder="Кто ваши клиенты? М/Ж, возраст, социальный и профессиональный статус"></textarea>
+				
+				<div class="radio">
+					<label class="label--common">Установлен ли на сайте счетчик <strong>Google Analytics?</strong></label>
+					
+					<div class="radiowrapper">
+						<label class="light" for="counter">
+							<input class="light-radiobutton" id="ysCounter" name="counter" type="radio" value="counter exists"> Да, счетчик установлен
+						</label>
+						<label class="light" for="counter">
+							<input class="light-radiobutton" id="noCounter" name="counter" type="radio" value="no counter"> Нет, счетчик не установлен
+						</label>
+						<label class="light" for="dnCounter">
+							<input class="light-radiobutton" id="dnCounter" name="counter" type="radio" value="know nothing about any counters"> Я не знаю
+						</label>
+					</div>
+				</div>
+
+			</section>
+
+			<!--Budget-->
+			<section class="budget">
+
+				<div class="heading">
+					<legend><span class="number">4</span>Месячный бюджет рекламной кампании</legend>
+				</div>
+
+				<label class="label--common" for="budget-value">Ориентировочный рекламный бюджет (тенге)</label>
+				<input class="budget-value" id="budget-value" name="budget-value" type="text" placeholder="Например: 50000 тенге в месяц">
+
+			</section>
+			
+			<!--Additional Info-->
+			<section class="additional">
+				<div class="heading">
+					<legend><span class="number">5</span>Дополнительные сведения</legend>
+				</div>
+				
+				<label class="label--common" for="region">Любая дополнительная информация, которую вы сочтете нужным указать</label>
+				<textarea name="region" id="region" cols="30" rows="2" placeholder=""></textarea>
+
+			</section>
+
+			<!--Contact Email-->
+			<section class="contacts">
+				<div class="heading">
+					<legend><span class="number">6</span>Контактная информация</legend>
+				</div>
+
+				<label class="label--common" for="username">Как вас зовут?&nbsp;<span class="accent">*</span></label>
+				<input class="username" id="username" name="username" type="text" placeholder="Ваше имя" required>
+				
+				<label class="label--common" for="email">Ваш email&nbsp;<span class="accent">*</span></label>
+				<input class="email" id="email" name="email" type="email" placeholder="Например: mycompany@gmail.com" required>
+
+			</section>
+
+			<div class="closing">
+				<p class="label--common">Спасибо за внимательное заполнение брифа! Наши специалисты свяжутся с Вами в течение одного рабочего дня</p>
+			</div>
+
+			<div class="submission">
+				<button class="submit">Отправить</button>
+			</div>
+
+	
+		
+			
+
+
+		</fieldset>
+
+	</form>
+
+</body>
+</html>

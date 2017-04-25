@@ -355,14 +355,13 @@ input[type="radio"] {
 	color:#aaa;
 }
 button {
-  padding: 19px 39px 18px 39px;
+  padding: 16px 42px;
   color: #d44e46;
   background-color: #fff;
   font-size: 28px;
   text-align: center;
   font-style: normal;
   border-radius: 0;
-  width: 33%;
   border: 1px solid #f44d44;
   margin-bottom: 10px;
   margin-top: 25px;

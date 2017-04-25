@@ -1,0 +1,40 @@
+/* font-family: "FrankRegular" */
+@font-face {
+	font-family: "FrankRegular";
+	src: url("../fonts/Frank/FrankRegular.eot");
+	src: url("../fonts/Frank/FrankRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Frank/FrankRegular.woff") format("woff"),
+	url("../fonts/Frank/FrankRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ClearSansRegular" */
+@font-face {
+	font-family: "ClearSansRegular";
+	src: url("../fonts/ClearSans/ClearSansRegular.eot");
+	src: url("../fonts/ClearSans/ClearSansRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ClearSans/ClearSansRegular.woff") format("woff"),
+	url("../fonts/ClearSans/ClearSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ClearSansItalic" */
+@font-face {
+	font-family: "ClearSansItalic";
+	src: url("../fonts/ClearSans/ClearSansItalic.eot");
+	src: url("../fonts/ClearSans/ClearSansItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ClearSans/ClearSansItalic.woff") format("woff"),
+	url("../fonts/ClearSans/ClearSansItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ClearSansBold" */
+@font-face {
+	font-family: "ClearSansBold";
+	src: url("../fonts/ClearSans/ClearSansBold.eot");
+	src: url("../fonts/ClearSans/ClearSansBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ClearSans/ClearSansBold.woff") format("woff"),
+	url("../fonts/ClearSans/ClearSansBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

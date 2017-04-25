@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Бриф</title>
+	<title>Forpost — Бриф</title>
 
 	<!--for queries-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,18 +17,27 @@
 	<style></style>
 
 	<!--og protocol-->
-	<meta content="" name="description">
-	<meta content="" property="og:image">
-	<meta content="" property="og:description">
-	<meta content="" property="og:site_name">
+	<meta content="img/logo--square.png" name="description">
+	<meta content="img/logo--square.png" property="og:image">
+	<meta content="img/logo--square.png" property="og:description">
+	<meta content="img/logo--square.png" property="og:site_name">
 	<meta content="website" property="og:type">
+
+	<!--favicon set-->
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<meta name="msapplication-TileImage" content="img/favicon/ms-icon-70x70.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
 	
   </head>
 <body>
 
-	
+	<form action="https://getsimpleform.com/messages?form_api_token=68b1392e2399371b186ce78efb2d5f5b" method="post">
 
-	<form action="" method="post">
+	<!--Redirect-->
+	<input type="hidden" name="redirect_to" value="http://context.tk/brief/thankyou.html" />
 		
 		<div class="leader">
 			<div class="leader-heading">
@@ -52,7 +61,7 @@
 				</div>
 				
 				<label class="label--common" for="website">Введите адрес вашего веб-сайта:&nbsp;<span class="accent">*</span></label>
-				<input class="website" id="website" name="website" type="url" placeholder="www.website.com" required>
+				<input class="website" id="website" name="website" type="text" placeholder="www.website.com" required>
 				<label class="label--common" for="company">Как называется ваша компания?</label>
 				<input class="company" id="company" name="company" type="text" placeholder="Название вашей компании">
 			</section>
@@ -73,25 +82,25 @@
 					<!--Campaign Goals-->
 					<div class="radiowrapper">
 						<label class="light" for="goal-1"> <!--Sales-->
-							<input class="light-radiobutton" id="goal-1" name="goal-1" type="checkbox" value="goal-1">Повышение продаж 
+							<input class="light-radiobutton" name="goal-1" type="checkbox" value="Повышение продаж">Повышение продаж 
 						</label>
 						<label class="light" for="goal-2"> <!--Calls-->
-							<input class="light-radiobutton" id="goal-2" name="goal-2" type="checkbox" value="goal-2">Рост числа входящих звонков 
+							<input class="light-radiobutton" name="goal-2" type="checkbox" value="Рост числа входящих звонков">Рост числа входящих звонков 
 						</label>
 						<label class="light" for="goal-3"> <!--Visits-->
-							<input class="light-radiobutton" id="goal-3" name="goal-3" type="checkbox" value="goal-3">Рост трафика (посещаемости сайта) 
+							<input class="light-radiobutton" name="goal-3" type="checkbox" value="Рост трафика (посещаемости сайта)">Рост трафика (посещаемости сайта) 
 						</label>
 						<label class="light" for="goal-4"> <!--Interactions-->
-							<input class="light-radiobutton" id="goal-4" name="goal-4" type="checkbox" value="goal-4">Увеличение количества заказов online при помощи формы заказа
+							<input class="light-radiobutton" name="goal-4" type="checkbox" value="Увеличение количества заказов online при помощи формы заказа">Увеличение количества заказов online при помощи формы заказа
 						</label>
 						<label class="light" for="goal-5"> <!--NewProduct-->
-							<input class="light-radiobutton" id="goal-5" name="goal-5" type="checkbox" value="goal-5">Реклама нового товара или услуги
+							<input class="light-radiobutton" name="goal-5" type="checkbox" value="Реклама нового товара или услуги">Реклама нового товара или услуги
 						</label>
 						<label class="light" for="goal-6"> <!--Promotion-->
-							<input class="light-radiobutton" id="goal-6" name="goal-6" type="checkbox" value="goal-6">Проведение промоакции
+							<input class="light-radiobutton" name="goal-6" type="checkbox" value="Проведение промоакции">Проведение промоакции
 						</label>
 						<label class="light" for="goal-7"> <!--Branding-->
-							<input class="light-radiobutton" id="goal-7" name="goal-7" type="checkbox" value="goal-7">Брендинг (повышение осведомленности о бренде)
+							<input class="light-radiobutton" name="goal-7" type="checkbox" value="Брендинг (повышение осведомленности о бренде)">Брендинг (повышение осведомленности о бренде)
 						</label>
 					</div>
 				</div>
@@ -106,22 +115,22 @@
 
 				<!--Targeting-->
 				<label class="label--common" for="region">Укажите страну или регион (регионы, города), в которых работает Ваша компания:&nbsp;<span class="accent">*</span></label>
-				<textarea name="region" id="region" cols="30" rows="2" placeholder="Например: Казахстан, Акмолинская область" required></textarea>
+				<textarea name="region" cols="30" rows="2" placeholder="Например: Казахстан, Акмолинская область" required></textarea>
 				<label class="label--common" for="customers">Ваша целевая аудитория?</label>
-				<textarea name="customers" id="customers" cols="30" rows="4" placeholder="Кто ваши клиенты? М/Ж, возраст, социальный и профессиональный статус"></textarea>
+				<textarea name="customers" cols="30" rows="4" placeholder="Кто ваши клиенты? М/Ж, возраст, социальный и профессиональный статус"></textarea>
 				
 				<div class="radio">
 					<label class="label--common">Установлен ли на сайте счетчик <strong>Google Analytics?</strong></label>
 					
 					<div class="radiowrapper">
 						<label class="light" for="counter">
-							<input class="light-radiobutton" id="ysCounter" name="counter" type="radio" value="counter exists"> Да, счетчик установлен
+							<input class="light-radiobutton" name="counter" type="radio" value="Счетчик аналитики есть"> Да, счетчик установлен
 						</label>
 						<label class="light" for="counter">
-							<input class="light-radiobutton" id="noCounter" name="counter" type="radio" value="no counter"> Нет, счетчик не установлен
+							<input class="light-radiobutton" name="counter" type="radio" value="Счетчика аналитики нет"> Нет, счетчик не установлен
 						</label>
 						<label class="light" for="dnCounter">
-							<input class="light-radiobutton" id="dnCounter" name="counter" type="radio" value="know nothing about any counters"> Я не знаю
+							<input class="light-radiobutton" name="counter" type="radio" value="Я не знаю, есть ли счетчик"> Я не знаю
 						</label>
 					</div>
 				</div>
@@ -136,7 +145,7 @@
 				</div>
 
 				<label class="label--common" for="budget-value">Ориентировочный рекламный бюджет (тенге)</label>
-				<input class="budget-value" id="budget-value" name="budget-value" type="text" placeholder="Например: 50000 тенге в месяц">
+				<input class="budget-value" name="budget-value" type="text" placeholder="Например: 50000 тенге в месяц">
 
 			</section>
 			
@@ -147,7 +156,7 @@
 				</div>
 				
 				<label class="label--common" for="region">Любая дополнительная информация, которую вы сочтете нужным указать</label>
-				<textarea name="region" id="region" cols="30" rows="2" placeholder=""></textarea>
+				<textarea name="additional_info" id="region" cols="30" rows="2" placeholder=""></textarea>
 
 			</section>
 
@@ -161,7 +170,7 @@
 				<input class="username" id="username" name="username" type="text" placeholder="Ваше имя" required>
 				
 				<label class="label--common" for="email">Ваш email&nbsp;<span class="accent">*</span></label>
-				<input class="email" id="email" name="email" type="email" placeholder="Например: mycompany@gmail.com" required>
+				<input class="email" id="email" name="email" type="email" placeholder="Почтовый ящик, на который мы отправим Вам ответное письмо" required>
 
 			</section>
 
@@ -172,11 +181,6 @@
 			<div class="submission">
 				<button class="submit">Отправить</button>
 			</div>
-
-	
-		
-			
-
 
 		</fieldset>
 

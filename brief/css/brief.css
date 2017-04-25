@@ -377,3 +377,54 @@ button:focus {
   background-color: #f44d44;
   color: #fff;
 }
+/*Email Sent*/
+body.thankyou {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 400px;
+	text-align: center;
+}
+.accomplished {
+	background-color: #f44d44;
+	max-width: 600px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+.accomplished_logo {
+	height: 86px;
+	width: 86px;
+	margin: 0 auto;
+}
+.accomplished_logo img {
+	height: 70px;
+	width: 70px;
+	text-align: center;
+}
+.accomplished_text {
+	text-align: left;
+}
+.accomplished_text h1 {
+	color: #f44d44;
+}
+.accomplished_text span {
+	color: #f44d44;
+}
+.accomplished_text a {
+	font-size: 18px;
+}
+.accomplished_text a:hover {}
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 30px;
+	text-align: center;
+	background: white;
+	border: 5px solid #f44d44;
+	box-sizing: border-box;
+}
